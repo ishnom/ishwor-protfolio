@@ -214,7 +214,7 @@ nav.sticky .menu-btn{
   font-size: 25px;
   font-weight: 400;
   background-color: #d91136;
-
+  color: white;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -300,6 +300,7 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
+  color: white;
   background-color: #d91136;
   border: 2px solid transparent;
   cursor: pointer;
