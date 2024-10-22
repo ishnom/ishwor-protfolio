@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ishwor website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/ishwor-subedi-55613632a/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/Ishworr_subedi"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/ishwoorr/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="left-section">
+          <h1>Hey  <br> I’m Ishwor Subedi</h1>
+          <h3>your network ally!</h3><br>
+          <p>Committed to building secure and efficient networks, I specialize in network design and automation. With my skills in Python, 
+            Java, and advanced networking protocols, I’m ready to tackle any challenge that comes my way.</p>
+          
+          <a href="#contact" class="hire-btn">Hire Me</a>
+        </div>
+        <div class="right-section">
+          <img src="images/backgroundd.png" alt="Profile Image" class="profile-pic">
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/profile.png" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">NETWORKING Is My Passion</div>
+            <p>
+              I’m Ishwor Subedi, a dedicated junior software developer
+               and network engineer with a passion for technology and problem-solving.
+                My expertise spans across programming with Python and Java, as well as designing and
+                 implementing network infrastructures. I have hands-on experience in configuring VLANs, OSPF,
+                  ACLs, DHCP, and inter-VLAN routing.
+            </p>
+            <p>In addition to core networking, I’m also focused on network security, 
+              implementing firewalls, VPNs, and performing security audits to safeguard systems
+               from threats. I am proficient in network automation using Python and tools like Ansible
+                to streamline network management. With a growing interest in cybersecurity and ongoing learning 
+                with Kali Linux, I aim to continue enhancing my skills in securing and automating networks. 
+              My ultimate goal is to contribute to creating secure, high-performance, and
+               scalable networks that drive innovation.</p>
+               <div class="button">
+                <button onclick="openCV()">View CV</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>From designing high-performance networks to mastering programming languages, my skills encompass a
+                 wide range of expertise. With hands-on experience in network design, implementation, and security, 
+                 as well as proficiency in Python and Java for automation and development, I am equipped to tackle complex technological
+                  challenges. Whether it's configuring OSPF, ACLs, or implementing VLANs, I bring a solid foundation in networking principles
+                   and a drive to continuously learn and innovate.</p>
+            <div class="experience">
+              <div class="num"></div>
+              <div class="exp">
+              
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">NETWORK</div>
+              <div class="per">95%</div>
+            </div>
+       
+            <div class="box">
+              <div class="topic">PYTHON</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CORE JAVA</div>
+              <div class="per">90%</div>
+            </div>
+            <!-- <div class="box">
+              <div class="topic">PHP</div>
+              <div class="per">60%</div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+            
+            <div class="box">
+                <div class="icon">
+                  <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="topic">Network Design and Planning</div>
+                <p>Designing scalable, high-performance network infrastructures, including LAN, WAN, VLAN, inter-VLAN routing, and OSPF for optimized routing and network traffic management.</p>
+              </div>
+              
+              <div class="box">
+                <div class="icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="topic">Network Implementation</div>
+                <p>Deploying and configuring routers, switches, VLANs, inter-VLAN routing, DHCP, and OSPF routing protocols to ensure seamless connectivity across networks.</p>
+              </div>
+              
+              <div class="box">
+                <div class="icon">
+                  <i class="fas fa-lock"></i>
+                </div>
+                <div class="topic">Network Security</div>
+                <p>Implementing firewalls, VPNs, ACLs, and performing security audits to protect networks from external and internal threats, while securing OSPF configurations.</p>
+              </div>
+              
+              <div class="box">
+                <div class="icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="topic">Network Automation</div>
+                <p>Automating network tasks using tools like Ansible and Python for configuration management, OSPF dynamic routing, and SNMP network monitoring.</p>
+              </div>
+              
+              <div class="box">
+                <div class="icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="topic">Network Virtualization</div>
+                <p>Setting up virtual networks (VLANs, VxLAN) and virtual routers for optimizing network resources, including OSPF dynamic routing across virtualized environments.</p>
+              </div>
+              
+              <div class="box">
+                <div class="icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="topic">Python and Core Java with OOP</div>
+                <p>Skilled in Python programming for automation, data processing, and backend development, as well as Core Java with a solid understanding of Object-Oriented Programming (OOP) concepts such as inheritance, encapsulation, and polymorphism.</p>
+              </div>
+              
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic"></div>
+          <p>I would love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel free to reach out.
+           <br><br>
+            <table>
+              <tr>
+                  <td>Email: ishworsubednetwork@gmail.com</td>
+              </tr>
+              <tr>
+                  <td>Phone: +977-9766847972</td>
+              </tr>
+              <tr>
+                  <td>Location: Bagmati, Kathmandu, Nepal</td>
+              </tr>
+              <tr>
+                  <td>LinkedIn: <a href="https://linkedin.com/in/ishwor-subedi">linkedin.com/in/ishwor-subedi</a></td>
+              </tr>
+          </table>
+          
+          <div class="button">
+            <a href="https://www.linkedin.com/in/ishwor-subedi-55613632a/" target="_blank">
+              <button>Let's Chat</button>
+            </a>
+          </div>
+          
+        <div class="text">
+          <div class="media-icons">
+            <a href="https://www.linkedin.com/in/ishwor-subedi-55613632a/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/Ishworr_subedi"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ishwoorr/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
