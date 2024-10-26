@@ -48,3 +48,24 @@ navLinks.forEach((link) => {
 function openCV() {
   window.open('cv-ishwor.pdf', '_blank'); // Opens the PDF in a new tab
 }
+function viewProject(event) {
+  // Detect if the device is mobile
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  
+  if (isMobile) {
+    event.preventDefault(); // Prevents opening the link
+    alert("This project cannot open on mobile; it requires a PC.");
+  }
+}
+document.querySelector('.menu a[href="#projects"]').addEventListener('click', function (event) {
+  event.preventDefault();
+  const targetSection = document.getElementById('projects');
+  const offsetTop = targetSection.offsetTop - 75 // Adjust -50 as needed
+
+  window.scrollTo({
+      top: offsetTop,
+      behavior: 'smooth'
+  });
+});
+
+
