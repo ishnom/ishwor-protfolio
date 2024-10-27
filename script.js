@@ -60,7 +60,7 @@ function viewProject(event) {
 document.querySelector('.menu a[href="#projects"]').addEventListener('click', function (event) {
   event.preventDefault();
   const targetSection = document.getElementById('projects');
-  const offsetTop = targetSection.offsetTop - 75 // Adjust -50 as needed
+  const offsetTop = targetSection.offsetTop - 105 // Adjust -50 as needed
 
   window.scrollTo({
       top: offsetTop,
